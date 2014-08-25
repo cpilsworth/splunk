@@ -1,21 +1,2 @@
-
-/**
- * Splunk logo.
- */
-
-.logo[data-logo="Splunk"] {
-  width: 3.2755217738210223em;
-}
-
-.logo[data-logo="Splunk"] > * {
-  background-image: url(images/logo.svg);
-  margin: .05em 0 -.025em 0;
-}
-
-.logo[data-logo="Splunk"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Splunk"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
